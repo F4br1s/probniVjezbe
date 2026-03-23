@@ -1,2 +1,4 @@
-Ovo je pocetni tekst. I samo ovaj tekst.
+Ovo je pocetni tekst.
 
+Commit 2
+Dodao tekst i izbrisao drugu ecenicu iz prijasnjeg.
