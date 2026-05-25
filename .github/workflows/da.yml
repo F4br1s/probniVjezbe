@@ -1,0 +1,17 @@
+name: Update ReadME
+on: 
+  issues: 
+    types: closed
+
+jobs:
+  update_readme_job:
+    runs-on: ubuntu-
+    steps:
+    
+      - name: Update GitHub Profile README
+        uses: mnjirjak/github-update-readme@v1.4.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          header: "latest issue close by: ${{ github.actor }}."
+          repoCount: 0
